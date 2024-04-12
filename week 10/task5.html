@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Images</title>
+</head>
+<body>
+<div id="imageContainer"></div>
+<script>
+    // Function to display images
+    function displayImages() {
+        var imageContainer = document.getElementById('pexels-photo-2791043.jpeg');
+        for (var i = 1; i <= 4; i++) {
+            var image = document.createElement('pexels-photo-267360.jpeg');
+            image.src = i +' pexels-photo-134989.webp';
+            image.alt = 'pexels-photo-196664.jpeg' + i;
+            imageContainer.appendChild(image); 
+        }
+    }
+    displayImages();
+</script>
+</body>
+</html>
